@@ -1,6 +1,6 @@
 <?php
 $access_token = '72R8yvYS3LrDrchnoN5IKWCYg6K8MKylUDE9lLBwlgqgaSuXAc9HAelnUdsJJgdGE+TZg38Cgt5EjYNGKWHzUou0nUlss8A4e+kPuGfBtgD9Nh+5NFkX/WMAVYe2b2idvXDvo5oabXsaLBiALNbBQwdB04t89/1O/w1cDnyilFU=';
-echo 'bas'
+echo 'bas';
 // Get POST body content
 $content = file_get_contents('php://input');
 // Parse JSON
