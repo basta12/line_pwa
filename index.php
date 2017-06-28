@@ -15,9 +15,9 @@ if (!is_null($events['events'])) {
 			if($text == 'ขอดูรูป'){				
 				$replyToken = $event['replyToken'];
 				$messages = [
-						'type': 'image',
-  						'originalContentUrl': 'https://lh4.ggpht.com/An8v98KQi85Obs2-240UGSPeIyyq9mOwRvxbXzxMvvqloIOmUN3scTVN9nX3-q128Eg=h900',
- 						'previewImageUrl': 'https://lh4.ggpht.com/An8v98KQi85Obs2-240UGSPeIyyq9mOwRvxbXzxMvvqloIOmUN3scTVN9nX3-q128Eg=h900'
+						'type'=> 'image',
+  						'originalContentUrl' => 'http://nrwms.pwa.co.th/WebPortal/Scripts/fileman/Uploads/pump2.jpg',
+ 						'previewImageUrl' => 'http://nrwms.pwa.co.th/WebPortal/Scripts/fileman/Uploads/pump2.jpg'
 				];
 				$url = 'https://api.line.me/v2/bot/message/reply';
 				
