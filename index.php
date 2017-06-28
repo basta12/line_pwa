@@ -15,9 +15,9 @@ if (!is_null($events['events'])) {
 			if($text == 'ขอดูรูป'){				
 				$replyToken = $event['replyToken'];
 				$messages = [
-					'type'=> 'imagemap',
- 					'baseUrl'=> 'https://www.google.com',
- 					'altText'=> 'this is an imagemap'
+						'type': 'image',
+  						'originalContentUrl': 'http://nrwms.pwa.co.th/WebPortal/Scripts/fileman/Uploads/pump2.jpg',
+ 						'previewImageUrl': 'http://nrwms.pwa.co.th/WebPortal/Scripts/fileman/Uploads/pump2.jpg'
 				];
 				$url = 'https://api.line.me/v2/bot/message/reply';
 				
