@@ -16,8 +16,8 @@ if (!is_null($events['events'])) {
 				$replyToken = $event['replyToken'];
 				$messages = [
 						'type'=> 'image',
-  						'originalContentUrl' => 'https://pm.pwa.co.th/picture/P/P02790.jpg',
- 						'previewImageUrl' => 'https://pm.pwa.co.th/picture/P/P02790.jpg'
+  						'originalContentUrl' => 'http://nrwms.pwa.co.th/WebPortal/Scripts/fileman/Uploads/pump2.jpg',
+ 						'previewImageUrl' => 'http://nrwms.pwa.co.th/WebPortal/Scripts/fileman/Uploads/pump2.jpg'
 				];
 				$url = 'https://api.line.me/v2/bot/message/reply';
 				
