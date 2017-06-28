@@ -16,8 +16,8 @@ if (!is_null($events['events'])) {
 				$replyToken = $event['replyToken'];
 				$messages = [
 						'type'=> 'image',
-  						'originalContentUrl' => 'https://www.dropbox.com/s/0o9c75jegfb12wu/20170326_102939.jpg?dl=0',
- 						'previewImageUrl' => 'https://www.dropbox.com/s/0o9c75jegfb12wu/20170326_102939.jpg?dl=0'
+  						'originalContentUrl' => 'https://linetestbybas.herokuapp.com/img1.jpg',
+ 						'previewImageUrl' => 'https://linetestbybas.herokuapp.com/img1.jpg'
 				];
 				$url = 'https://api.line.me/v2/bot/message/reply';
 				
