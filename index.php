@@ -1,6 +1,6 @@
 <?php
 $access_token = '72R8yvYS3LrDrchnoN5IKWCYg6K8MKylUDE9lLBwlgqgaSuXAc9HAelnUdsJJgdGE+TZg38Cgt5EjYNGKWHzUou0nUlss8A4e+kPuGfBtgD9Nh+5NFkX/WMAVYe2b2idvXDvo5oabXsaLBiALNbBQwdB04t89/1O/w1cDnyilFU=';
-
+echo 'bas'
 $url = "https://lh4.ggpht.com/An8v98KQi85Obs2-240UGSPeIyyq9mOwRvxbXzxMvvqloIOmUN3scTVN9nX3-q128Eg=h900";
 	$web_page = file_get_contents( str_replace("##query##",urlencode($k), $url ));
  
@@ -16,7 +16,7 @@ $url = "https://lh4.ggpht.com/An8v98KQi85Obs2-240UGSPeIyyq9mOwRvxbXzxMvvqloIOmUN
 		$m[$i] = preg_replace("/^,/i","",$m[$i]);
 		if ($m[$i]!="") array_push($x,$m[$i]);
 	}
-	return $x;
+	echo $x
 
 
 // Get POST body content
