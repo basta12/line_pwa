@@ -15,8 +15,8 @@ if (!is_null($events['events'])) {
 			if($text == 'ขอดูรูป'){				
 				$replyToken = $event['replyToken'];
 				$messages = [
-					'type': "text",
-   					'text': "Hello, world"
+					'type' => 'text',
+					'text' => 'ok'
 				];
 				$url = 'https://api.line.me/v2/bot/message/reply';
 				
