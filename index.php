@@ -11,9 +11,8 @@ if (!is_null($events['events'])) {
 	foreach ($events['events'] as $event) {
 		// Reply only when message sent is in 'text' format
 		if ($event['type'] == 'message' && $event['message']['type'] == 'text') {
-			
-			if($text == 'm'){
-				$text = $event['message']['text'];
+			$text = $event['message']['text'];
+			if($text == 'ขอดูรูป'){				
 				$replyToken = $event['replyToken'];
 				$messages = [
 					'type' => 'text',
