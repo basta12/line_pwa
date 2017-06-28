@@ -16,8 +16,8 @@ if (!is_null($events['events'])) {
 				$replyToken = $event['replyToken'];
 				$messages = [
 						'type'=> 'image',
-  						'originalContentUrl' => 'http://nrwms.pwa.co.th/WebPortal/Scripts/fileman/Uploads/pump2.jpg',
- 						'previewImageUrl' => 'http://nrwms.pwa.co.th/WebPortal/Scripts/fileman/Uploads/pump2.jpg'
+  						'originalContentUrl' => 'https://nl.hideproxy.me/go.php?u=Oexh8Lb3FZPum8jql0pOdNN4ZEbhSINMKPqudWge0EkrKoGxQDGA7%2BWCPppml7z1CiSH11AfTPpEmhAPHYY%3D&b=5&f=norefer',
+ 						'previewImageUrl' => 'https://nl.hideproxy.me/go.php?u=Oexh8Lb3FZPum8jql0pOdNN4ZEbhSINMKPqudWge0EkrKoGxQDGA7%2BWCPppml7z1CiSH11AfTPpEmhAPHYY%3D&b=5&f=norefer'
 				];
 				$url = 'https://api.line.me/v2/bot/message/reply';
 				
