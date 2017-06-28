@@ -1,23 +1,6 @@
 <?php
 $access_token = '72R8yvYS3LrDrchnoN5IKWCYg6K8MKylUDE9lLBwlgqgaSuXAc9HAelnUdsJJgdGE+TZg38Cgt5EjYNGKWHzUou0nUlss8A4e+kPuGfBtgD9Nh+5NFkX/WMAVYe2b2idvXDvo5oabXsaLBiALNbBQwdB04t89/1O/w1cDnyilFU=';
-echo 'bas';
 
-	$url = "http://nrwms.pwa.co.th/WebPortal/Scripts/fileman/Uploads/pump2.jpg";
-	$web_page = file_get_contents( str_replace("##query##",urlencode($k), $url ));
- 
-	$tieni = stristr($web_page,"dyn.setResults(");
-	$tieni = str_replace( "dyn.setResults(","", str_replace(stristr($tieni,");"),"",$tieni) );
-	$tieni = str_replace("[]","",$tieni);
-	$m = preg_split("/[\[\]]/",$tieni);
-	$x = array();
-	for($i=0;$i<count($m);$i++) {
-		$m[$i] = str_replace("/imgres?imgurl\\x3d","",$m[$i]);
-		$m[$i] = str_replace(stristr($m[$i],"\\x26imgrefurl"),"",$m[$i]);
-		$m[$i] = preg_replace("/^\"/i","",$m[$i]);
-		$m[$i] = preg_replace("/^,/i","",$m[$i]);
-		if ($m[$i]!="") array_push($x,$m[$i]);
-	}
-	echo $m;
 // Get POST body content
 $content = file_get_contents('php://input');
 // Parse JSON
@@ -33,8 +16,8 @@ if (!is_null($events['events'])) {
 				$replyToken = $event['replyToken'];
 				$messages = [
 						'type'=> 'image',
-  						'originalContentUrl' => 'http://nrwms.pwa.co.th/WebPortal/Scripts/fileman/Uploads/pump2.jpg',
- 						'previewImageUrl' => 'http://nrwms.pwa.co.th/WebPortal/Scripts/fileman/Uploads/pump2.jpg'
+  						'originalContentUrl' => 'https://pm.pwa.co.th/picture/P/P02790.jpg',
+ 						'previewImageUrl' => 'https://pm.pwa.co.th/picture/P/P02790.jpg'
 				];
 				$url = 'https://api.line.me/v2/bot/message/reply';
 				
