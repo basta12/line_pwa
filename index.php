@@ -16,8 +16,8 @@ if (!is_null($events['events'])) {
 				$replyToken = $event['replyToken'];
 				$messages = [
 					 'type' => 'image',
-   					 'originalContentUrl' => 'https://example.com/original.jpg',
-   					 'previewImageUrl' => 'https://example.com/preview.jpg'
+   					 'originalContentUrl' => 'https://lh4.ggpht.com/An8v98KQi85Obs2-240UGSPeIyyq9mOwRvxbXzxMvvqloIOmUN3scTVN9nX3-q128Eg=h900',
+   					 'previewImageUrl' => 'https://lh4.ggpht.com/An8v98KQi85Obs2-240UGSPeIyyq9mOwRvxbXzxMvvqloIOmUN3scTVN9nX3-q128Eg=h900'
 				];
 				$url = 'https://api.line.me/v2/bot/message/reply';
 				
