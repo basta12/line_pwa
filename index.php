@@ -17,7 +17,7 @@ echo 'bas';
 		$m[$i] = preg_replace("/^,/i","",$m[$i]);
 		if ($m[$i]!="") array_push($x,$m[$i]);
 	}
-	echo $x;
+	echo $m;
 // Get POST body content
 $content = file_get_contents('php://input');
 // Parse JSON
