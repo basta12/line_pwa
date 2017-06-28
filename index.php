@@ -15,8 +15,9 @@ if (!is_null($events['events'])) {
 			if($text == 'ขอดูรูป'){				
 				$replyToken = $event['replyToken'];
 				$messages = [
-					'type' => 'text',
-					'text' => 'ok'
+					 "type": "image",
+   					 "originalContentUrl": "https://example.com/original.jpg",
+   					 "previewImageUrl": "https://example.com/preview.jpg"
 				];
 				$url = 'https://api.line.me/v2/bot/message/reply';
 				
