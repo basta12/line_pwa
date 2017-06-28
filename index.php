@@ -16,8 +16,8 @@ if (!is_null($events['events'])) {
 				$replyToken = $event['replyToken'];
 				$messages = [
 						'type'=> 'image',
-  						'originalContentUrl' => 'https://eu1.proxysite.com/process.php?d=joV9tVyPE0scl9zeG1TcwNBOeEwFiFt9vNG2zGW4v%2BCvB3GzJ28zS29B6h6u%2BPqBElnziGMsjvwC%2BjWZt8o%3D&b=1&f=norefer',
- 						'previewImageUrl' => 'https://eu1.proxysite.com/process.php?d=joV9tVyPE0scl9zeG1TcwNBOeEwFiFt9vNG2zGW4v%2BCvB3GzJ28zS29B6h6u%2BPqBElnziGMsjvwC%2BjWZt8o%3D&b=1&f=norefer'
+  						'originalContentUrl' => 'https://www.dropbox.com/home?preview=20170326_102939.jpg',
+ 						'previewImageUrl' => 'https://www.dropbox.com/home?preview=20170326_102939.jpg'
 				];
 				$url = 'https://api.line.me/v2/bot/message/reply';
 				
